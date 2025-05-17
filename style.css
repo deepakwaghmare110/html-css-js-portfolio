@@ -137,3 +137,144 @@ a:hover {
 .hamburger-icon.open:first-child {
   transform: none;
 }
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 20px;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+#profile {
+  display: flex;
+}
+
+.section-container .section-pic-container img {
+  width: 400px;
+  height: 400px;
+  margin: auto 0;
+}
+
+.section-text {
+  text-align: center;
+  align-self: center;
+}
+
+.section-text p {
+  font-weight: 600;
+}
+
+.section-text-p1 {
+  text-align: center;
+}
+
+.section-text-p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.icon {
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  cursor: pointer;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 8rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.icon-arrow {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: -10px;
+  bottom: 40px;
+}
+
+.details-container {
+  padding: 20px;
+  flex: 1;
+  background: white;
+  border-radius: 32px;
+  border: rgb(53, 53, 53) 1px solid;
+  border-color: rgb(163, 163, 163);
+}
